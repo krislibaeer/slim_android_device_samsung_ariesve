@@ -15,22 +15,9 @@
 -->
 
 <resources>
-
-    <!-- Show Expanded Desktop preference -->
-    <bool name="config_show_expandedDesktop">true</bool>
-
-    <!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
-         Setting to false will disable Volume Rocker Wake support -->
-    <bool name="config_show_volumeRockerWake">true</bool>
-
-    <!-- Home button Wake Support. Some devices do not support this.
-         Setting to false will disable Home button Wake support -->
-    <bool name="config_show_homeWake">true</bool>
-
-    <!-- LED Flashlight -->
-    <bool name="has_led_flash">false</bool>
-
+    <!-- Whether the device has specific settings or not -->
+    <bool name="has_advanced_settings">true</bool>
+    
     <!-- Dock Settings -->
-    <bool name="has_dock_settings">true</bool>
-
+	<bool name="has_dock_settings">true</bool>
 </resources>
